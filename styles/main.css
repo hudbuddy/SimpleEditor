@@ -1,0 +1,27 @@
+#console {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: #333;
+  color: yellowgreen;
+  border-top: 1px solid #111;
+  font-family: Courier New, Courier, monospace;
+  padding: 8px;
+}
+
+console * {
+  padding: 4px;
+}
+
+* {
+  margin: 0;
+}
+
+#app {
+  position: relative;
+  height: 720px;
+  width: 1280px;
+  background: #111;
+}

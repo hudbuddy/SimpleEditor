@@ -1,0 +1,30 @@
+{
+  "name": "editor-and-hammer",
+  "version": "1.0.0",
+  "description": "Just playin'",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@cycle/dom": "20.2.0",
+    "@cycle/most-run": "8.0.0",
+    "@cycle/run": "4.1.0",
+    "@most/core": "1.2.3",
+    "@most/scheduler": "1.1.0",
+    "bluebird": "3.5.1",
+    "chart.js": "2.7.2",
+    "debug": "3.1.0",
+    "lodash": "4.17.5",
+    "lodash-fp": "0.10.4",
+    "most": "1.7.3",
+    "plotly.js": "1.38.1",
+    "ramda": "0.25.0",
+    "xstream": "11.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
