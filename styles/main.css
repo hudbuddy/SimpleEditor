@@ -9,6 +9,7 @@
   border-top: 1px solid #111;
   font-family: Courier New, Courier, monospace;
   padding: 8px;
+  overflow: auto;
 }
 
 console * {
@@ -19,9 +20,18 @@ console * {
   margin: 0;
 }
 
-#app {
+#editor {
   position: relative;
   height: 720px;
   width: 1280px;
   background: #111;
+}
+
+item {
+  overflow: hidden;
+}
+.item, .item * {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
